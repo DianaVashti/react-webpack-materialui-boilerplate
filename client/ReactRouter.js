@@ -21,6 +21,6 @@ export default class ReactRouter extends Component {
           <Route path="*" component={landingPageComponent} />
         </Router>
       </MuiThemeProvider>
-    )  
+    )
   }
 }
