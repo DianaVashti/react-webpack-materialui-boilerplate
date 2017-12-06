@@ -1,5 +1,6 @@
 import React, {Component}  from 'react'
 import {Link} from 'react-router'
+import MarkdownEditor from './markdownEditor'
 
 export default class LandingPage extends Component {
   constructor() {
@@ -9,7 +10,8 @@ export default class LandingPage extends Component {
   render() {
     return (
       <div>
-        <p>Hello World!</p>
+        <Link to={`/to-do`}>To-do List</Link>
+        <MarkdownEditor />
       </div>
     )
   }
