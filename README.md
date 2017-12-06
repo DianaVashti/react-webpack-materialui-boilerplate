@@ -1,4 +1,4 @@
-# Siqq-ening
+# react-webpack-materialui-boilerplate
 1. Fork and clone this repository
 2. `npm i` to install dependencies.
 3. `npm run start:dev` to build and run the server.
