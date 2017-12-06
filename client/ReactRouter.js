@@ -3,7 +3,7 @@ import {Component} from 'react'
 import React from 'react'
 import { Router, Route, browserHistory } from 'react-router'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import LandingPage from './LandingPage'
+import LandingPage from './views/landingPage'
 
 export default class ReactRouter extends Component {
   constructor(props) {
