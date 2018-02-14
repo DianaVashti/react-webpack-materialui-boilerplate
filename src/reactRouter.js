@@ -1,9 +1,9 @@
-import ReactDom from 'react-dom'
-import {Component} from 'react'
-import React from 'react'
-import { Router, Route, browserHistory } from 'react-router'
+import React, {Component} from 'react'
+import PropTypes from 'prop-types';
+import ReactDom, { Router, Route, browserHistory } from 'react-router'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import LandingPage from './views/landingPage'
+
+import LandingPage from './views/LandingPage/landingPage'
 
 export default class ReactRouter extends Component {
   constructor(props) {
