@@ -3,10 +3,10 @@ const path = require( 'path' )
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const jsonLoader = require('json-loader');
 const BUILD_DIR = path.resolve(__dirname, 'public/build/')
-const APP_DIR = path.resolve(__dirname, 'client')
+const APP_DIR = path.resolve(__dirname, 'src')
 
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: __dirname + '/client/index.html',
+  template: __dirname + '/src/index.html',
   filename: 'index.html',
   inject: 'body',
   minify: {
